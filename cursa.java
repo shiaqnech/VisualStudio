@@ -9,12 +9,14 @@ public class cursa {
         int edat;
         String sexe; 
 
-        System.out.println("Introdueix el teu nom");
+       System.out.println("Introdueix el teu nom");
        Nom  = System.console().readLine();
        System.out.println("Introdueix la teva edat");
        edat = Integer.parseInt(System.console().readLine());
        System.out.println("Introdueix el teu sexe");
        sexe = System.console().readLine();
+
+    
         
     }
 
